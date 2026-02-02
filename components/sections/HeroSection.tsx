@@ -111,12 +111,14 @@ export function HeroSection() {
                             <ArrowRight weight="bold" className="w-5 h-5" />
                         </motion.a>
                         <motion.a
-                            href="#"
+                            href="https://drive.google.com/file/d/1BvGbA2pC7O8pGKiYmRHT9KWVD7FSQbG5/view"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             whileHover={{ scale: 1.02 }}
                             whileTap={{ scale: 0.98 }}
                             className="btn-secondary"
                         >
-                            <FileText href="https://drive.google.com/file/d/1BvGbA2pC7O8pGKiYmRHT9KWVD7FSQbG5/view" weight="bold" className="w-5 h-5" />
+                            <FileText weight="bold" className="w-5 h-5" />
                             Download dokumen
                         </motion.a>
                     </motion.div>
