@@ -10,7 +10,7 @@ export function HeroSection() {
     return (
         <section
             id="beranda"
-            className="relative flex items-center justify-center overflow-hidden min-h-screen lg:py-42"
+            className="relative flex items-center justify-center overflow-hidden min-h-screen pt-32 lg:py-42"
         >
             {/* Animated Blobs */}
             <div className="absolute inset-0 pointer-events-none">
